@@ -1,7 +1,7 @@
 ---
-title: "Title"
+title: "Machine Learning for Heart Disease Prediction"
 author: 
-  - Last Name, First Name[^1]
+  - Albayrak, Melike Gülşen[^1]
 bibliography: ../bibliography/biblio.bib
 csl: ../csl/apa.csl
 header-includes:
@@ -32,7 +32,7 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 <!-- ======================================================================= -->
 <!-- ============================== FOOTNOTES ============================== -->
 <!-- ======================================================================= -->
-[^1]: Student ID, [Github Repo](https://github.com/YOUR_USER_NAME_HERE/YOUR_REPO_NAME_HERE)
+[^1]: 21080562, [Github Repo](https://github.com/melikegulsenalbayrak/Midterm)
 
 # Important Information About Midterm
 
@@ -45,15 +45,17 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 \colorbox{WildStrawberry}{Read the README.md file in the project folder for more information.}
 
 # Introduction
-This outline has been created to assist you in writing your project assignment. You should cite all the sources you use, articles, presentations, projects, etc. Quoting and referencing gives readers the opportunity to access the resources you refer. **Even though you use your own words, if you are conveying the ideas of others in your work, you have to document the source of these ideas. Otherwise, you are committing academic plagiarism.** For example, you can refer to @aydinonat:2007 for academic writing rules. You can find lots of online resources on this topic.
-
-The sections in your project assignment must necessarily include the sections in this text (except the first section, of course). Apart from the sections used here, you can use different subsections. When writing your project, use this file as a draft and adapt its content to your purposes.
-
-In this section, mention the purpose and importance of your work in a few paragraphs.
+ Heart disease is a leading cause of morbidity and mortality worldwide. Early detection and intervention can improve patient outcomes, but traditional risk prediction models have limited accuracy. The purpose of this project is to investigate the use of machine learning techniques for predicting the presence of heart disease in patients based on their demographic and clinical characteristics, using the Heart disease dataset from the UCI Machine Learning repository which is a website that i found from my searchings about the most helpful dataset providers to find suitable datasets for researchs. After my investigations for finding a good dataset, I chose the Heart Disease Dataset that has 303 observations with 14 variables including categorical (sex, chest pain type (cp), fasting blood sugar > 120 mg/dl (fbs), resting electrocardiographic results (restecg), exercise induced angina (exang), slope of the peak exercise ST segment (slope), number of major vessels colored by fluoroscopy (ca), thalassemia (thal), target), discrete numeric (maximum heart rate achieved (thalach)) and continous numeric (age, resting blood pressure (trestbps, in mm Hg), serum cholesterol (chol, in mg/dl), ST depression induced by exercise relative to rest (oldpeak)) variables. 
+ 
+ After chosing the dataset, i pursued on looking for articles related to heart diseases and i saw that prediction of heart disease’s existence or non-existence is a vital situation and machine learning techniques are now has a great impact for these prediction studies. And also in my further research, i noticed that some articles show that during this prediction of heart diseases ,with the help of machine learning, demographical, medical or clinical background knowledges about patients are also important for the process. So at last, i designed my question as “Can machine learning techniques accurately predict the presence of heart disease in patients based on their demographic and clinical characteristics?”. Then, i just focused more specifically on the articles related to my research question for the project.
 
 ## Literature Review
 
-In this section, discuss the articles you have read on the subject by giving references. This is a narrative citation @chang:2013. This one is a parenthetical citation [@chang:2013]. **Do not summarize each article individually under a separate title.** In the literature review section, **at least four** articles must be cited [@newbold:2003; @verzani:2014; @wickham:2014; @wooldridge:2015a].
+Heart disease is a major public health problem that can lead to serious health consequences if not diagnosed and treated early. Machine learning techniques have shown promise in accurately predicting the presence of heart disease based on demographic and clinical characteristics. This literature review summarizes the findings of four studies that have examined the application of machine learning algorithms for predicting heart disease.
+ All of these studies discusses the importance of demographic and clinical characteristics such as age, sex, blood pressure, and cholesterol levels in predicting heart disease. The authors evaluate various studies that have used machine learning algorithms including decision trees, artificial neural networks, support vector machines, and random forests etc. for heart disease prediction and compare their performance [@kutiame2022application], [@article], [@singh2020heart]. And one of the studies especially highlights the importance of selecting appropriate features and preprocessing techniques to improve the accuracy of the model [@reddy2019classification]. 
+ 
+ Overall, these studies suggest that ML techniques can be used for heart disease prediction with demographical and clinical informations and have the potential to improve patient outcomes. However, more research is needed to identify the most effective ML algorithms for heart disease prediction and to address the challenges associated with using ML in clinical settings. 
+
 
 
 
